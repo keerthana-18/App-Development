@@ -1,0 +1,80 @@
+/* styles.css */
+.top-bar {
+  background-color: #97BC62;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end; /* Move elements to the right */
+  align-items: center;
+  height: 70px;
+  
+}
+
+.top-bar-icons {
+  display: flex; /* Use flex display to arrange icons in a row */
+  margin-right: 10px; /* Add space between icons on the right */
+}
+
+.top-bar-icon {
+  font-size: 32px;
+  cursor: pointer;
+  margin-left: 10px; /* Add space between icons on the left */
+  color: #fff;
+
+}
+
+.top-bar-icon:hover {
+  color: lightskyblue;
+  background-color: black;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove the input focus outline */
+  transition: border-color 0.3s ease-in-out; /* Smooth border color transition */
+  width: 200px; /* Adjust the width as needed */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  width: 200px;
+  margin-right: 10px;
+  background: white;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: #faf7f7;
+  font-size: 20px;
+}
+.button {
+  background-color: #2C5F2D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
