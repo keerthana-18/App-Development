@@ -1,0 +1,46 @@
+/* FAQ.css */
+
+/* FAQ title styles */
+.faq1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Container for each FAQ item */
+.faq-container1 {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px; /* Adjust the space between FAQ items */
+  height: 200px;
+  width: 800px;
+  margin-left: 400px;
+  transition: all 0.3s ease; /* Apply a transition effect */
+}
+
+/* Hover effect for the container */
+.faq-container1:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover */
+}
+
+/* FAQ question styles */
+.faq-container1 .faq-container p {
+  font-weight: bold;
+}
+
+/* FAQ answer styles */
+.faq-container1 .faq-container p:not(:first-child) {
+  margin-top: 10px;
+  margin-left: 20px; /* Adjust the left margin for answer paragraphs */
+}
+
+/* Link styles (for Privacy Policy and social media links) */
+.faq-container1 .faq-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+

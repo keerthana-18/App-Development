@@ -1,0 +1,25 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-l {
+    font-weight: bold;
+  }
+  
+  .footer-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+  }

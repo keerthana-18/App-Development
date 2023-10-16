@@ -1,0 +1,68 @@
+/* CSS for the 'user-data-edit' component and its children */
+.user-data-edit {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.user-data-display-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-data-display-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.save-action-btn,
+.edit-action-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-action-btn:hover,
+.edit-action-btn:hover {
+  background-color: #0056b3;
+}
+
+.user-data-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.x-title,
+.y-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.x-data,
+.y-data {
+  font-size: 16px;
+}
+
+.data-input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Additional styling for the 'Address' textarea */
+textarea {
+  resize: none;
+}
+

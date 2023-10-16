@@ -1,0 +1,64 @@
+/* Assuming you have a CSS file named Products.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height:500px;
+  }
+  
+  .d-flex-r-g {
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-left: 1000px;
+    column-gap: 50px;
+  }
+  
+  .card-cli {
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .product-cli-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
+  .product-cli-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product-cli-price {
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .product-btn {
+    background-color:  #4CAF50; /* Button background color */
+   
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+ 
+  
