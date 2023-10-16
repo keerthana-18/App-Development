@@ -1,0 +1,59 @@
+/* Add this CSS to your login.css file or include it in your project's styles */
+
+.auth-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/online-shopping-digital-technology-with-icon-blue-background-ecommerce-online-store-marketing_252172-219.jpg?size=626&ext=jpg&ga=GA1.1.1442719721.1695564330&semt=ais"
+  );
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+.auth-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+  margin-left:50%;
+}
+
+.auth-wrapper {
+  margin-top: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.auth-btn {
+  background: #6515fa;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.auth-links {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #573b8a;
+}
